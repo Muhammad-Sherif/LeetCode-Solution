@@ -17,8 +17,7 @@ public:
 
 	void pop() {
 		st.pop();
-		if (!minSt.empty())
-			minSt.pop();
+        minSt.pop();
 	}
 
 	int top() {
